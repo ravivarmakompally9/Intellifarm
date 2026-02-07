@@ -1,0 +1,78 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Python virtual environment
+/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ML model files (large)
+backend/models/*.pt
+backend/models/disease_detection/
+training.log
+yolov8*.pt
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# PWA
+/public/sw.js
+/public/workbox-*.js
+/public/worker-*.js
+/public/sw.js.map
+/public/workbox-*.js.map
+/public/worker-*.js.map
+
+# Uploads
+/public/uploads
+
+# Large video files
+*.mp4
+frontend/public/hero-video.mp4
+
+# Python virtual environment
+/venv
+
+# clerk configuration (can include secrets)
+/.clerk/
+
+# Google Earth Engine credentials
+backend/credentials/
+*.json
+!package.json
+!package-lock.json
+!tsconfig.json
